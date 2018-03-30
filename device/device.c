@@ -75,7 +75,7 @@ devices_t get_video_devices()
   struct v4l2_frmsizeenum frmsize;
   struct v4l2_frmivalenum frmival;
 
-  devices_t *devs;
+  devices_t devs;
   devs.num_devices = 0;
 
   dir = opendir("/dev");

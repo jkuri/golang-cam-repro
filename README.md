@@ -5,10 +5,19 @@ This repository presents bug that is introduced with running `C` code or Objecti
 ## Install
 
 ```
-go install -i github.com/jkuri/golang-cam-repro
+go get -u -v github.com/jkuri/golang-cam-repro
+go install github.com/jkuri/golang-cam-repro
 ```
 
-Stack trace:
+## Run
+
+```
+golang-cam-repro
+```
+
+Then open browser at `http://localhost:7350`
+
+## Stack trace
 
 ```
 fatal: morestack on g0
